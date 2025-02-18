@@ -1,8 +1,8 @@
 @use './functions' as *;
 
 $laptop: 1440;
-$tablet: 1023;
-$mobile: 767;
+$tablet: 1025;
+$mobile: 510;
 $mobile-s: 480;
 
 @mixin laptop-above {

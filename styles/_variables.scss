@@ -1,4 +1,4 @@
-@use 'helpers' as *;
+@use 'helpers'as *;
 
 :root {
     /* colors */
@@ -8,7 +8,7 @@
 
     /* dark */
     --color-dark: #141414;
-    --color-dark-10: #A1A1A1;
+    --color-dark-10: #1A1A1A;
     --color-dark-15: #262626;
     --color-dark-20: #333333;
     --color-dark-40: #666666;
@@ -19,6 +19,8 @@
 
     --color-accent: #FFD11A;
     --color-red: #FF5500;
+
+    --border: #{rem(1)} solid var(--color-dark-15);
 
     /* font family */
     --font-family-base: "Inter", sans-serif;
